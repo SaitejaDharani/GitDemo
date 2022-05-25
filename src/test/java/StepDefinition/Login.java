@@ -22,11 +22,14 @@ public class Login {
         
         System.out.println(strArg1);
         System.out.println(strArg2);
+        System.out.println("Git test");
+        
     }
 
     @Then("^User should redirect to home page$")
     public void user_should_redirect_to_home_page() throws Throwable {
     	System.out.println("landed on home page");
+    	System.out.println("Git test2");
     }
 
     @And("^dashboard is displayed \"([^\"]*)\"$")
